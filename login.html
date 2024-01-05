@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilo_login.css">
+    <script src="estilo_login_jv.javascript.js"></script>
+    
+</head>
+<body>
+
+    <div class="container">
+        <h1>Informe os seguintes dados</h1>
+
+<form onsubmit="salvarDados(event)">
+    <label for="nome">Nome completo:</label>
+    <input type="text" id="nome" required>
+
+    <label for="apelido">Apelido:</label>
+    <input type="text" id="apelido" required>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" required>
+
+    <label for="musica">Música Favorita:</label>
+    <input type="text" id="musica" required>
+
+    <label for="cor">Cor Favorita:</label>
+    <input type="text" id="cor" required>
+
+    <label for="comida">Comida Favorita:</label>
+    <input type="text" id="comida" required>
+
+    <label for="filme">Filme, série, animação/anime, novela favorita:</label>
+    <input type="text" id="filme" required>
+
+    <label for="amigo">Melhor amigo/amiga;:</label>
+    <input type="text" id="amigo" required>
+
+    <label for="lugar">Lugar que gostaria de visitar/favorito:</label>
+    <input type="text" id="lugar" required>
+    
+    <label for="alguem">Alguém que seja uma inspiração:</label>
+    <input type="text" id="alguem" required>
+
+    <label for="gostaria">Uma coisa louca que gostaria de fazer:</label>
+    <input type="text" id="gostaria" required>
+    
+    <label for="profissao">Qual profissão acha que seguirá:</label>
+    <input type="text" id="profissao" required>
+
+    <label for="trabalhar">Onde gostaria de trabalhar:</label>
+    <input type="text" id="trabalhar" required>
+    
+    <label for="poder">Algo que gostaria de poder desfazer/refazer:</label>
+    <input type="text" id="poder" required>
+
+    <label for="suporta">Alguém que não suporta:</label>
+    <input type="text" id="suporta" required>
+
+    
+    <button type="submit" id="buttonSalvar" onclick="salvarLogin()">Salvar</button>
+
+    <button type="submit" id="buttonResetar" onclick="resetForm()">Excluir Dados</button>
+
+    </form>
+</div>
+
+
+</body>
+</html>
